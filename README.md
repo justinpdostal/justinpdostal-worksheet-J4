@@ -89,7 +89,8 @@ famCharacters.printShelf();
 numbers.printShelf();
 
 ### 11)
-- It is in O(n) time since it must iterate through all the items in the LinkdedList everytime, which is linear, and bad :( .
+- It is in O(n^2) time since it must iterate through all the items in the LinkdedList everytime to find ll.get(i), which is linear, and bad :(. Then it must also
+- print out all the different values which also takes n. n * n = n^2
 
 ### 12)
 - There is a form of pointer that knows where the desired information is in the list making it more effecient as it doesn't have to go through all the items.
