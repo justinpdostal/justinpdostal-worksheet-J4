@@ -100,3 +100,16 @@ numbers.printShelf();
 - Since comparable doesn't need or want a constructor as it is just a single method using other objects, it is a interface.
 - Also allows a class to extend one class and use the comparable interface in the same system.
 
+### 14) 
+ public int compareTo(Car other) {
+       int speed1 = this.getTopSpeed();
+        int speed2 = other.getTopSpeed();
+         if(speed1 < speed2) 
+            return -1;
+         else if (speed1 > speed2) 
+            return 1;
+         else 
+            return 0;        
+    }    
+
+
