@@ -39,16 +39,53 @@ public T peek();
 }
 
 ### 5)
+IntegerCalc:
+
+Integer add(Integer a, Integer B){
+return a + b;
+}
+
+Integer Multiplier(Integer a, Integer b){
+return a*b;
+}
+
+FloatCalc:
+Float add(Float a, Float B){
+return a + b;
+}
+
+Float Multiplier(Float a, Float b){
+return a*b;
+}
 
 
+### 7)
+HashMap<String,String. fab four = new HasMap<String,String>
+
+String fullName = fabFour.get("Ringo");
 
 
-###8)
+### 8)
 - To get rid of conceptual errors in which a very broad method could not complile due to different types.
 
 ### 9)
 - Erasure changes all the type parameters in a generic class to ones related to the object at hand.
-- The code changes all the type parameters into strings!
+- The code changes all the type parameters into strings! Instead of objects
 
 ### 10)
+Shelf<String> famCharacters = new Shelf<String>("Shakespeare Characters");
+famCharacters.add("Hamlet");
+famCharacters.add("Othello");
+famCharacters.add("Cordelia");
+famCharacters.add("Juliet");
+
+Shelf<Integer> numbers = new Shelf<Integer>("integers");
+numbers.add(13);
+numbers.add(23);
+numbers.add(42);
+numbers.add(1729);
+
+famCharacters.printShelf();
+numbers.printShelf();
+
 
