@@ -88,4 +88,14 @@ numbers.add(1729);
 famCharacters.printShelf();
 numbers.printShelf();
 
+### 11)
+- It is in O(n) time since it must iterate through all the items in the LinkdedList everytime, which is linear, and bad :( .
+
+### 12)
+- There is a form of pointer that knows where the desired information is in the list making it more effecient as it doesn't have to go through all the items.
+- It already knows i's value in ll so it doesn't have to iterate all the way through!
+
+### 13) 
+- Since comparable doesn't need or want a constructor as it is just a single method using other objects, it is a interface.
+- Also allows a class to extend one class and use the comparable interface in the same system.
 
